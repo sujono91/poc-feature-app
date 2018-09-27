@@ -16,6 +16,7 @@ const targetEnvironmentFileName = 'environment.prod.ts';
 const defaultEnvValues = {
   PREFIX_STORAGE_TYPE: 'localStorage',
   PREFIX_USER_TOKEN_FIELD_NAME: 'userToken',
+  PREFIX_FEATURES: "'list'"
 };
 
 // Load template file

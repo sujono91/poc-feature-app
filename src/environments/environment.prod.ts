@@ -1,6 +1,9 @@
 export const environment = {
   production: true,
-  backendUrl: 'http://www.kompas.com',
+  backendUrl: 'test.com',
   storageType: 'localStorage',
-  userTokenFieldName: 'userToken'
+  userTokenFieldName: 'userToken',
+  features: [
+    'list', 'blog'
+  ]
 };
