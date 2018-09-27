@@ -1,9 +1,4 @@
 export const environment = {
   production: true,
-  backendUrl: '<%= PREFIX_BACKEND_URL %>',
-  storageType: '<%= PREFIX_STORAGE_TYPE %>',
-  userTokenFieldName: '<%= PREFIX_USER_TOKEN_FIELD_NAME %>',
-  features: [
-    <%- PREFIX_FEATURES %>
-  ]
+  features: [<%- PREFIX_FEATURES.map((feature)=>`'${feature}'`) %>]
 };
