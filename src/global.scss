@@ -11,10 +11,18 @@
 @import "~@ionic/angular/css/flex-utils.css";
 
 // DISPLAY UTILITIES
+// $grid-widths: (
+//   xs: var(--ion-grid-width-xs, var(--ion-grid-width, 100%)),
+//   sm: var(--ion-grid-width-sm, var(--ion-grid-width, 540px)),
+//   md: var(--ion-grid-width-md, var(--ion-grid-width, 720px)),
+//   lg: var(--ion-grid-width-lg, var(--ion-grid-width, 960px)),
+//   xl: var(--ion-grid-width-xl, var(--ion-grid-width, 1140px))
+// );
+
 .d-none {
   display: none !important;
 }
-@media (min-width: 768px){
+@media only screen and (min-width: 768px){
   .d-none-md {
     display: none !important;
   }

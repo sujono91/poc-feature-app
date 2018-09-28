@@ -1,0 +1,21 @@
+ion-grid {
+  max-width: 35rem;
+}
+
+ion-img {
+  width: 100%;
+  max-height: 7rem;
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 576px) {
+  ion-img {
+    max-height: 12rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  ion-img {
+    max-height: 24rem;
+  }
+}
