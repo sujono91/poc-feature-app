@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  features: ['contact','promotions']
+  features: ['contact','loan','promotions']
 };
