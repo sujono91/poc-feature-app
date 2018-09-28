@@ -21,6 +21,6 @@
     </ion-col>
   </ion-row>
   <ion-text color="dark" *ngIf="payPerMonth > 0" >
-    <h5>Payment Per Month: {{ payPerMonth }} MYR</h5>
+    <h5>Payment Per Month: {{ payPerMonth | currency:'MYR':'code' }}</h5>
   </ion-text>
 </ion-content>
