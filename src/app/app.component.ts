@@ -21,7 +21,7 @@ export class AppComponent {
         title: feature,
         url: `/${feature}`,
         icon: 'home'
-      }
+      };
     })
   ];
 

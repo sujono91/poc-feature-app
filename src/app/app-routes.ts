@@ -10,5 +10,5 @@ export const ROUTES: Routes = [
     path: 'home',
     loadChildren: './home/home.module#HomePageModule'
   },
-  { path: 'blog', loadChildren: './blog/blog.module#BlogPageModule' }
+  { path: 'promotions', loadChildren: './promotions/promotions.module#PromotionsPageModule' }
 ];
