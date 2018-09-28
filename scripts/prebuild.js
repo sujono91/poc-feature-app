@@ -20,7 +20,7 @@ const convertFeatureToClassName = (feature) => {
 // because build should fail if you don't provide the correct values
 // for your production environment
 const templateVariables = {
-  PREFIX_FEATURES: ['list']
+  PREFIX_FEATURES: ['promotions', 'loan']
 };
 // get features
 const { features } = process.env;

@@ -18,7 +18,7 @@ export class HeaderComponent implements OnInit {
       return {
         title: feature,
         url: `/${feature}`
-      }
+      };
     })
   ];
 
