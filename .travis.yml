@@ -10,3 +10,8 @@ branches:
 
 script:
   - npm run build
+
+deploy:
+  provider: surge
+  project: ./www/
+  domain: http://dark-religion.surge.sh/
